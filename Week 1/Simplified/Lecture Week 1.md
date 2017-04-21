@@ -68,31 +68,31 @@ Parenthesis|Exponential|Multiplication|Division|Addition|Sutraction
 ```python
 text = "Hello"
 text2 = "World"
-print(text + text2) -> "HelloWorld"
+print(text + text2) # -> "HelloWorld"
 ```
 
 ```python
 text = "Hello"
 text2 = "World"
-print(text, text2) -> "Hello World"
+print(text, text2) # -> "Hello World"
 ```
 
 ### String with integer
 ```python
 text = "Hello"
-print(text * 5) -> "HelloHelloHelloHelloHello"
+print(text * 5) # -> "HelloHelloHelloHelloHello"
 ```
 
 ```python
 text = "Hello"
 text2 = "World"
-print(text + text2 + 5) -> ERROR (You cannot add string with a integer type)
+print(text + text2 + 5) # -> ERROR (You cannot add string with a integer type)
 
 
 # so try to use this instead 
 text = "Hello"
 text2 = "World"
-print(text + text2 + str(5)) -> HelloWorld5
+print(text + text2 + str(5)) # -> HelloWorld5
 ```
 
 ## Basic I/O
@@ -100,24 +100,24 @@ print(text + text2 + str(5)) -> HelloWorld5
 ### print() Function
 ```python
 text = "Hello"
-print(text + "World") -> HelloWorld
+print(text + "World") # -> HelloWorld
 ```
 
 ```python
 text = 12
-print(text, "World") -> 12 World
+print(text, "World") # -> 12 World
 ```
 
 ```python
 text = "Hello"
 text2 = "World"
-print(text + text2, sep=",") -> Hello,World
+print(text + text2, sep=",") # -> Hello,World
 ```
 
 ```python
 text = "Hello"
 text2 = "World"
-print(text + text2, end="!") -> HelloWorld!
+print(text + text2, end="!") # -> HelloWorld!
 ```
 
 ### input() Function
