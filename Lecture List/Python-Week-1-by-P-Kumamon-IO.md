@@ -16,19 +16,19 @@ Follow me on GitHub!
 ### Type of value check
 ```python
 var = "Hello"
-type(var) # -> <class 'str'>
+type(var) # Returns <class 'str'>
 
 var = "1234"
-type(var) # -> <class 'str'>
+type(var) # Returns <class 'str'>
 
 var = 1234
-type(var) # -> <class 'int'>
+type(var) # Returns <class 'int'>
 
 var = 1234.56
-type(var) # -> <class 'float'>
+type(var) # Returns <class 'float'>
 
 var = True
-type(var) # -> <class 'bool'>
+type(var) # Returns <class 'bool'>
 ```
 
 # Operators
@@ -73,26 +73,26 @@ http://study.com/academy/lesson/what-is-pemdas-definition-rule-examples.html
 ```python
 text = "Hello"
 text2 = "World"
-print(text + text2) -> "HelloWorld"
+print(text + text2) # Returns "HelloWorld"
 
 text = "Hello"
 text2 = "World"
-print(text, text2) -> "Hello World"
+print(text, text2) # Returns "Hello World"
 ```
 ### String with integer
 ```python
 text = "Hello"
-print(text * 5) -> "HelloHelloHelloHelloHello"
+print(text * 5) # Returns "HelloHelloHelloHelloHello"
 
 # This will not work!
 text = "Hello"
 text2 = "World"
-print(text + text2 + 5) -> ERROR (You cannot add string with a integer type)
+print(text + text2 + 5) # Returns ERROR (You cannot add string with a integer type)
 
 # so try to use this instead
 text = "Hello"
 text2 = "World"
-print(text + text2 + str(5)) -> HelloWorld5
+print(text + text2 + str(5)) # Returns HelloWorld5
 ```
 
 ## Basic I/O
@@ -100,18 +100,18 @@ print(text + text2 + str(5)) -> HelloWorld5
 ### print() Function
 ```python
 text = "Hello"
-print(text + "World") -> HelloWorld
+print(text + "World") # Returns HelloWorld
 
 text = 12
-print(text, "World") -> 12 World
+print(text, "World") # Returns 12 World
 
 text = "Hello"
 text2 = "World"
-print(text + text2, sep=",") -> Hello,World
+print(text + text2, sep=",") # Returns Hello,World
 
 text = "Hello"
 text2 = "World"
-print(text + text2, end="!") -> HelloWorld!
+print(text + text2, end="!") # Returns HelloWorld!
 ```
 
 ### input() Function
