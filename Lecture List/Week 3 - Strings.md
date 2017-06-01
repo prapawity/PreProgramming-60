@@ -200,7 +200,7 @@ print(chr(ord('A')+1) # Print out 'B'
 ```
 
 # String to change case
-```python
+```plain
 Convert character/text to lowercase -> .lower()
 Convert character/text to uppercase -> .upper()
 Convert character/text from lower to upper vice versa -> .swapcase()
@@ -274,7 +274,7 @@ return text.isalpha() # Returns true
 
 ----------
 # String with array counts and find
-```python
+```plain
 Finding character in text -> .find()
 Count character in text that satisfies search query -> .count()
 Finding text in array -> .index()
@@ -309,7 +309,7 @@ var = "Kumamon is happy, Kumamon is happy"
 return var.find("Kuma") # Returns 0
 ```
 
-Using .count()
+### Using .count()
 ```python
 How to use:
 <variable name>.count("<character/text you want to count>")
@@ -336,7 +336,7 @@ var = "Kumamon is happy, Kumamon is happy"
 return var.count("Kuma") # Returns 2
 ```
 
-Using len()
+### Using len()
 ```python
 How to use:
 len(<variable you want to count character>)
@@ -357,27 +357,27 @@ return len(var) # Retuns 5
 # Strings to other base numeric number
 
 ### Using bin()
-```
-bin(<decimal integer>)
-# It is built in function. Returns the binary number (Base 2)
-https://docs.python.org/3/library/functions.html#bin
+```python
+How to use:
+bin(<decimal integer>) # Built-in function. Returns the binary number (Base 2)
 
 Example:
 print(bin(12345)) # Prints out 0b11000000111001
+```
 
 ### Using hex()
-hex(<decimal integer>)
-# It is built in function. Returns the hexadecimal number (Base 6)
-https://docs.python.org/3/library/functions.html#hex
+```python
+How to use:
+hex(<decimal integer>) # Built-in function. Returns the hexadecimal number (Base 6)
 
 Example:
 print(hex(12345)) # Prints out 0x3039
+```
 
 ### Using oct()
 ```python
-oct(<decimal integer>)
-# It is a built in function. Returns the octadecimal (Base 8)
-https://docs.python.org/3/library/functions.html#oct
+How to use:
+oct(<decimal integer>) # Built-in function. Returns the octal number (Base 8)
 
 Example:
 print(oct(12345)) # Prints out 0o30071
