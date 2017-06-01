@@ -17,7 +17,7 @@ Like a string, a list is a sequence of values. In string, the value are characte
 
 There are several ways to create a new list; the simplest is enclose the elements in square brackets ([ and ])
 
-**Create an array**
+### Create an array
 
     kumamon = ['Kumamon', 'is', 'so', 'cute']
     numbers = [1, 2, 3, 4]
@@ -41,7 +41,7 @@ then looked at numbers
 
 # Adding More Elements
 
-**Add using .append()**
+### Add using .append()
 
     kumamon = [1,2,3,4]
     kumamon.append(5)
@@ -49,10 +49,10 @@ then looked at numbers
     # kumamon now equals to
     [1, 2, 3, 4, 5]
 
-**Add using .split()**
+### Add using .split()
 +Python Week 3 by P’ Kumamon (Strings): Using-.split()
 
-**Add from other array**
+### Add from other array
 
     text1 = ["Happy"]
     text2 = ["Kumamon"]
