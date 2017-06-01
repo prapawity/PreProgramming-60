@@ -105,3 +105,59 @@ then looked at numbers
 # Introduction to Tuples
 
 Tuples is an array, with a catch. They **cannot be replaced, removed, modify** after being created.
+
+# String to character stripping
+    Converge text (merge) -> .join()
+    Diverge text (separate) -> .split()
+
+    Replacing text (replace) -> .replace()
+    Stripping text (strip) -> .strip()
+
+Using .split()
+
+    How to use:
+    <variable name>.split("<separator you are using>")
+
+
+    text = "I am a happy Kumamon"
+    return text.split() # Returns array ['I', 'am', 'a', 'happy', 'Kumamon']
+
+    text = "I,am,a,happy,Kumamon"
+    return text.split(",") # Returns array ['I', 'am', 'a', 'happy', 'Kumamon']
+
+Using .join()
+
+    How to use:
+    <separator you want to use>.join(<array variable>)
+    -> Return the new text that have been joined
+
+
+    text = ['I', 'am', 'a', 'happy', 'Kumamon']
+    print(" ".join(text)) # Prints out "I am a happy Kumamon"
+
+### Using .strip()
+
+How to use:
+<variable name>.strip("<character/text you want to remove>")
+-> Returns the text that have been modified
+
+
+text = "ABCDE"
+return text.strip("A") # Returns "BCDE"
+
+text = "ABCDEAAAA"
+return text.strip("A") # Returns "BCDE"
+
+text = "ABAACAABA"
+return text.strip("AB") # Returns "C"
+
+### Using .replace()
+
+How to use:
+<variable name>.replace(<text that you like to change>,<change into>)
+-> Returns the text that have been modified
+
+
+text = "Hello, my name is Kumamon"
+return text.replace("Kumamon", "Rillakuma")
+# Returns "Hello, my name is Rillakuma"
