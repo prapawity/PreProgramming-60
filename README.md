@@ -46,3 +46,9 @@ Python สำหรับเด็ก Data Science และ BIT นั้น �
 ---
 # Have fun coding!!!
 ![](https://www.dropbox.com/s/pm9t4ceftlvc4s0/Hot%20Head%20Kumamon.jpg?raw=1)
+
+### Code Quality Checker
+
+|CodeBeat    |
+|------------|
+|[![codebeat badge](https://codebeat.co/badges/c50d83b7-1c31-43c0-b531-3c836bdda637)](https://codebeat.co/projects/github-com-sagelga-preprogramming-60-master)|

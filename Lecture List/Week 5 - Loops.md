@@ -8,160 +8,163 @@ Follow me on GitHub!
 
 ----------
 # Introduction to Loops
-
 Q: Why do we need a loop?
-A: Your life is already a loop. You wake up, brush your teeth, and do some stuff. It goes on everyday. What about we make this loops be done by the power of compute?
-
+A: It will simplify the use of coding and increse code quality
 
 # Introduction to variable manipulator
+### Using in
+```python
+How to use:
+<text> in <text>
 
-**Using in**
+Example
+"kumamon" in "kumamon is happy" # Returns True
+"kumamoto" in "kumamon is happy" # Returns False
+```
+in is a tester that find the text within the text. Similarly to .find()
 
-    How to use:
-    <text> in <text>
+### Using range()
+```python
+How to use:
+range(<stop>)
+range(<start>, <stop>)
 
-    Example
-    "kumamon" in "kumamon is happy" # Returns True
-    "kumamoto" in "kumamon is happy" # Returns False
+Example
+range(10) -> 0,1,2,3,4,5,6,7,8,9
+range(1,10) -> 1,2,3,4,5,6,7,8,9,10
+```
+range is a number array that continues the number as you like
 
-**Using range()**
-
-    How to use:
-    range(<stop>)
-    range(<start>, <stop>)
-
-    Example
-    range(10) -> 0,1,2,3,4,5,6,7,8,9
-    range(1,10) -> 1,2,3,4,5,6,7,8,9,10
 # Introduction to For Loop
-    How to use:
-    for <variable that will be use as counter> in range(<numeric number>)
+```python
+How to use:
+for <variable> in range(<stop>):
+for <variable> in range(<start>,<stop>):
 
-    Example
-    for i in range(10):
-      print("Hello. This is the", i, "iteration")
+Example
+for i in range(10):
+    print(i, end=" ")
 
-    # Returns
-    Hello. This is the 0 iteration
-    Hello. This is the 1 iteration
-    Hello. This is the 2 iteration
-    Hello. This is the 3 iteration
-    Hello. This is the 4 iteration
-    Hello. This is the 5 iteration
-    Hello. This is the 6 iteration
-    Hello. This is the 7 iteration
-    Hello. This is the 8 iteration
-    Hello. This is the 9 iteration
+# Returns 0 1 2 3 4 5 6 7 8 9
+```
+"for i" is to start a loop. 'i' variable will be number consists of "in range(x,y)".
 
-**For loop without range()**
+### For loop without range()
+```python
+for i in "Kumamon":
+    print(i, end=" ")
 
-    for i in "Kumamon":
-      print(i, end=" ")
+# Returns "K u m a m o n"
+```
 
-    # Returns
-    K u m a m o n
+### For loop using text array
+```python
+text = "Kumamon"
+for i in range(len(text)):
+    print(i, end=" ")
 
-**For loop using text array**
+# Returns "K u m a m o n"
+```
 
-    text = "Kumamon"
-    for i in range(len(text)):
-      print(i, end=" ")
+### For loop using array
+```python
+text = [1,2,3,4,5]
+for i in range(len(text)):
+    print(i, end=" ")
 
-    # Returns
-    K u m a m o n
+# Returns "1 2 3 4 5"
+```
 
-**For loop using array**
-
-    text = [1,2,3,4,5]
-    for i in range(len(text)):
-      print(i, end=" ")
-
-    # Returns
-    1 2 3 4 5
-
-**Nested For loops**
-
-    for i in range(2):
-      for j in range(2):
+### Nested For loops
+```python
+for i in range(2):
+    for j in range(2):
         for k in range(2):
-          print(i, j, k)
+            print(i, j, k)
 
-    # Returns
-    0 0 0
-    0 0 1
-    0 1 0
-    0 1 1
-    1 0 0
-    1 0 1
-    1 1 0
-    1 1 1
+# Returns
+0 0 0
+0 0 1
+0 1 0
+0 1 1
+1 0 0
+1 0 1
+1 1 0
+1 1 1
+```
 
-**Using For loops to call function**
-
-    def main():
-      for i in range(2):
+### Using For loops to call function
+```python
+def main():
+    for i in range(2):
         for j in range(2):
-          kumamon(i, j)
+            kumamon(i, j)
 
-    def kumamon(num1, num2):
-      print(num1 + num2)
+def kumamon(num1, num2):
+    print(num1 + num2)
 
-    main()
+main()
 
-    # Returns
-    0
-    1
-    1
-    2
+# Returns
+0
+1
+1
+2
+```
 
-**Using for loops for n times**
+### Using for loops for n times
+```python
+for i in range(0,10):
+    print(i, end=" ")
 
-    for i in range(0,10):
-      print(i, end=" ")
+# Returns
+0 1 2 3 4 5 6 7 8 9
+```
 
-    # Returns
-    0 1 2 3 4 5 6 7 8 9
+### Applicate for loops with len()
+```python
+text = "1234567890"
+for i in range(len(text)):
+    print(i, end=" ")
 
-**Applicate for loops with len()**
+# Returns
+0 1 2 3 4 5 6 7 8 9
+```
 
-    text = "1234567890"
-    for i in range(len(text)):
-      print(i, end=" ")
-
-    # Returns
-    0 1 2 3 4 5 6 7 8 9
 # Introduction to While Loop
-    How to use:
-    while <arguments>:
-      # Will runs this when the argument is true
+```python
+How to use:
+while <arguments>:
+    # Will runs this when the argument is true
 
-    Example:
-    count = 10
-    while count > 5:
-      print("Hello")
-      count--
+Example:
+count = 10
+while count > 5:
+    print("Hello")
+    count--
+```
 
-**Infinite Loop**
+### Infinite Loop
+```python
+while 1:
+  print("This will go on and on forever....")
 
-    while 1:
-      print("This will go on and on forever....")
-
-    # Returns
-    This will go on and on forever....
-    This will go on and on forever....
-    This will go on and on forever....
-    ...
-    ...
-    ...
-    # Programs will not end! Be aware!
-
-**Work itself like FOR loops**
-
-    count = 10
-    while count != 0:
-      print("Loop is now", count)
-      count -= 1
-
+# Returns
+This will go on and on forever....
+This will go on and on forever....
+This will go on and on forever....
+...
+...
+...
+# Programs will not end! Be aware!
+```
+### Work itself like FOR loops
+```python
+count = 10
+while count != 0:
+    print("Loop is now", count)
+    count -= 1
+```
 
 # Loop types comparison
 | Loop Type /
@@ -177,7 +180,6 @@ Sample Environment | **For**                                                    
 | Made for                       | Exact number of loops                                            | Exact way to stop the loops                                 |
 
 # Using these to help
-
 These can makes you get more of the loops.
 
 | How to use   | **break**       | **continue**                 |
@@ -185,24 +187,27 @@ These can makes you get more of the loops.
 | **Benefits** | Stops the loop  | Reset the loop flow          |
 | **For**      | Use as failsafe | Stop program from doing more |
 
-**Using break()**
-
-    for i in range(10):
-      print(i, end=" ")
-      if i == 5:
+### Using break()
+```python
+for i in range(10):
+    print(i, end=" ")
+    if i == 5:
         break
-    print("Loop is complete!")
 
-    # Returns
-    0 1 2 3 4 5 Loop is complete!
+print("Loop is complete!")
 
-**Using continue()**
-
-    for i in range(10):
-      if i == 5:
+# Returns
+0 1 2 3 4 5 Loop is complete!
+```
+### Using continue()
+```python
+for i in range(10):
+    if i == 5:
         continue
-      print(i, end=" ")
-    print("Loop is complete!")
+    print(i, end=" ")
 
-    # Returns
-    0 1 2 3 4 6 7 8 9 Loop is complete!
+print("Loop is complete!")
+
+# Returns
+0 1 2 3 4 6 7 8 9 Loop is complete!
+```
