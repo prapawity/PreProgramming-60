@@ -1,22 +1,22 @@
 ![](https://www.dropbox.com/s/zg39lys85bydx0b/prepro-live-2.jpg?raw=1)
 # Introduction to Pre Programming 2560
-สวัสดีครับ พี่ชื่อคุมะมง (หรืออยากเรียกว่าพี่คุมะมง ม๊งม๊ง ก็ตามสบายจ้า)
+สวัสดีครับ พี่ชื่อคุมะมง :bear::black_circle::jp: (หรืออยากเรียกว่าพี่มง ก็ตามสบายจ้า)
 
-วันนี้น้องเข้ามาใน Repository ของพี่มง เป้าหมายของ Repository นี้คือการให้น้องเเรียนรู้ด้วยตนเองนะครับและลองอ่านและทำความเข้าใจโค้ดของเพื่อนๆ หรือ ของพี่มงเอง
+เป้าหมายของ Repository นี้คือการให้น้องเรียนรู้ด้วยตนเองนะครับและลองอ่านและทำความเข้าใจโค้ดของเพื่อนๆ หรือ ของพี่มงเอง โดยอาจารย์ โชคิพัฒน์ และเพื่อนๆ IT14 ได้จัดการเรียนการสอน Python เนื่องจากว่า
 
-เพื่อคะแนน PSIT ที่ดี และดีอย่างยั่งยืน ไม่อ่อนและตายจากพี่ๆไปซะก่อนนะจ๊ะ
+> "Python is a powerful, flexible, open source language that is easy to learn, easy to use, and has powerful libraries for data manipulation and analysis. Python has a unique combination of being both a capable general-purpose programming language as well as being easy to use for analytical and quantitative computing." -- Continuum Org
 
-> "Python is a powerful, flexible, open source language that is easy to learn, easy to use, and has powerful libraries for data manipulation and analysis. Python has a unique combination of being both a capable general-purpose programming language as well as being easy to use for analytical and quantitative computing." -- Continuum
+ภาษา Python จึงเหมาะกับการที่ให้น้องเรียน Algorithm ของการเขียนโปรแกรม และทำให้น้องเข้าใจภาษาคอมพิวเตอร์อื่นๆ ที่น้องยังไม่เคยได้เรียนได้มากยี่งขื้น เนื่องจาก Syntax ของภาษา Python แล้ว จึงเหมาะกับการเรียนในเทอมที่ 1 ครับ
 
 **Python สำหรับเด็ก IT** คงจะเป็นเพียงการเรียนเขียนโปรแกรมที่ง่ายๆ โดยการฝึก Algorithm และ Strategic ในการแปลงโจทย์ หรือ เป้าหมายที่เราอยากจะทำ ให้กลายเป็นโปรแกรมให้ได้นะครับ
 
 **Python สำหรับเด็ก Data Science และ Business IT** แล้ว มันเป็นอีกแบบนึงเลย โดยที่ Python เป็นภาษาโปรแกรมมี่งที่ดี แพร่หลายและง่ายต่อการต่อยอดไปทำอย่างอื่น โดยเฉพาะการทำ Machine Learning, Data Analysis, Data Visualization และอื่นๆ โดยการใช้ module ต่างๆที่มีใน Python แล้ว และ ในเว็บไซต์ต่างๆ ซึ่งน้องสามารถใช โมดูลได้อย่างสะดวกสบายและทำให้ชีวิตน้องง่ายขื้นเยอะ
 
-> "Python is easy for analysts to learn and use, but powerful enough to tackle even the most difficult problems in virtually any domain. It integrates well with existing IT infrastructure, and is very platform independent. Among modern languages, its agility and the productivity of Python-based solutions is legendary. Companies of all sizes and in all areas — from the biggest investment banks to the smallest social/mobile web app startups — are using Python to run their business and manage their data." -- Continuum
+> "Python is easy for analysts to learn and use, but powerful enough to tackle even the most difficult problems in virtually any domain. It integrates well with existing IT infrastructure, and is very platform independent. Among modern languages, its agility and the productivity of Python-based solutions is legendary. Companies of all sizes and in all areas — from the biggest investment banks to the smallest social/mobile web app startups — are using Python to run their business and manage their data." -- Continuum Org
 
-พี่จึงหวังว่า การที่พี่ทำให้น้องมากขนาดนี้ น้องจะอยากขนขวาย และเข้าใจความ Python ได้อย่างลึกซื้งมากขื้น
+พี่จึงหวังว่า การที่พี่ทำให้น้องมากขนาดนี้ น้องจะอยากขนขวาย และเข้าใจความ Python ได้อย่างลึกซื้งมากขื้น เพื่อคะแนน PSIT ที่ดี และดีอย่างยั่งยืน ไม่อ่อนและตายจากพี่ๆไปซะก่อนนะจ๊ะ
 
-ดังนั้น พี่ขอปล่อยให้น้องเข้ามาดู Repository นี้จนกว่าจะหมดการเรียน PSIT นะครับ
+ดังนั้น พี่ขอปล่อยให้น้องเข้ามาดู Repository นี้จนกว่าจะหมดการเรียน PSIT นะครับ แต่พี่มงก็จะไม่ลบไฟล์ไปไหนหรอกนะ รอรุ่นน้องสืบทอดทายาทการสอน Python ไปหารุ่นถัดไป
 
 ---
 # ![](https://www.dropbox.com/s/87t52kss15mxzfw/ic_question_answer_black_48dp_2x.png?raw=1) Issues
@@ -25,10 +25,10 @@
 
 ก็ลองหาดูนะครับ เผื่อจะช่วยอะไรได้บ้าง โดยการกด Tab ที่เขียนว่า Issue บน Repository จ้า
 ![https://github.com/sagelga/PreProgramming-60/issues](https://www.dropbox.com/s/1uyu3q33f53efqs/Screenshot%202017-06-01%2009.58.39.png?raw=1)
-และกด Add new issues ครับ
+เมื่อเข้าแล้ว จะขื้น Issues ที่มีทั้งหมด หากน้องอยากจะถามคำถามใหม่ ให้กดที่ Add new issues ครับ
 ![](https://www.dropbox.com/s/3lzoyd2itu16nc1/Screenshot%202017-06-01%2015.33.50.png?raw=1) เพื่อจะเรื่มเขียนคำถามของน้องๆ
 
-**คำแนะนำ: ติด Tag และ Milestone ด้วยครับ เพื่อน้องคนอื่นจะได้หาคำตอบได้เร็วยี่งขื้น**
+**ติด Tag และ Milestone ด้วยนะครับ กันการถามซ้ำ**
 ![](https://www.dropbox.com/s/1jeskqncp45jf7g/Screenshot%202017-06-01%2015.33.59.png?raw=1)
 ---
 # ![](https://www.dropbox.com/s/ltedppupqoxaaxj/ic_class_black_48dp_2x.png?raw=1) Lecture
@@ -39,12 +39,19 @@
 
 แล้วเลือกไฟล์ที่น้องอยากเข้าไปอ่านนะครับ
 
-และถ้าน้องสงสัยจุดไหน ไปทำใน Issues นะครับ แล้ว reference ไว้ใน Issues เหมือนเดิมครับ พี่จะลองอธิบายให้น้องเข้่าใจยี่งขื้น
+และถ้าน้องสงสัยจุดไหน สามารถไปตั้งคำถามใน Issues ได้นะครับ แล้ว พยามยามอธิบายให้พี่หรือเพื่อนๆเข้าใจคำถามของน้องด้วยนะครับ
 
-**คำเตือน: ห้ามเปิดไฟล์คำตอบที่เป็นภาษา Python นะครับ หากน้องยังทำข้อนั้นยังไม่เสร็จนะ** มันจะไม่ได้ช่วยให้น้องเก่งขื้น โดยการแอบดูคำคอบหรอกเนอะ
+เรียนคนเดียว มันไม่สนุกหรอกครับ ถ้ามีเพื่อนๆช่วยกันถาม ช่วยกันตอบ จะได้จบพร้อมๆกันทั้งรุ่นนะครับ พี่หวังว่าจะเกิดขื้นกับรุ่นน้องๆนะครับ
 
 ---
-# ![](https://www.dropbox.com/s/34ew7n8tecgtymz/ic_bookmark_border_black_48dp_2x.png?raw=1) Resource
+# ![](https://www.dropbox.com/s/2iva51yu7qtx0dl/Google-Code.png?raw=1) Code
+
+**ตอนนี้พี่มงขอปิดไว้ก่อนนะครับ เพราะว่าน้องๆบางคนยังทำกันไม่เสร็จ** แต่ก็ยังสามารถถามปัญหา หรือ Algorithm เพื่อนๆหรือพี่ได้ใน Issues ได้เหมือนเดิมนะครับ
+
+---
+# ![](https://www.dropbox.com/s/34ew7n8tecgtymz/ic_bookmark_border_black_48dp_2x.png?raw=1) Resources
+
+รู้ไว้ ก็จะดีต่อชีวิตน้องนะครับ
 
 ### Ejudge https://ejudge.it.kmitl.ac.th/course/73
 ### Think Python (หนังสือเดียวที่เอาเข้าห้องสอบได้) http://greenteapress.com/thinkpython2/thinkpython2.pdf
@@ -53,7 +60,4 @@
 # Have fun coding!!!
 ![](https://www.dropbox.com/s/pm9t4ceftlvc4s0/Hot%20Head%20Kumamon.jpg?raw=1)
 
-### Code Quality Checker
-ไม่มีอะไรจ้า เป็นเพียงตัวเช็คเช้ยๆ เดี๋ยวว่างๆ น้องก็ค่อยลองเข้าไปดูเนอะ
-
-[![codebeat badge](https://codebeat.co/badges/c50d83b7-1c31-43c0-b531-3c836bdda637)](https://codebeat.co/projects/github-com-sagelga-preprogramming-60-master)
+-- Crafted with love from P' Kumamon IT14
