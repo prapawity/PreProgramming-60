@@ -1,40 +1,10 @@
 # Python Week 2 by P’ Kumamon (Functions)
 
-# Table of Contents
-
-**This is all contributed by P’ Kumamon. Enjoy.**
-
-| **I/O**                            | **Functions**                            | **Strings**                            | **Condition**                            | **Loops**                            |
-| ---------------------------------- | ---------------------------------------- | -------------------------------------- | ---------------------------------------- | ------------------------------------ |
-| +Python Week 1 by P’ Kumamon (I/O) | +Python Week 2 by P’ Kumamon (Functions) | +Python Week 3 by P’ Kumamon (Strings) | +Python Week 4 by P’ Kumamon (Condition) | +Python Week 5 by P’ Kumamon (Loops) |
-
-| **Lists and Tuples**                          | **Dict**                            | **Recursion**                            | **Minimal Code**                           | **Pylint Quality**                   |
-| --------------------------------------------- | ----------------------------------- | ---------------------------------------- | ------------------------------------------ | ------------------------------------ |
-| +Python Week 6 by P’ Kumamon (Lists + Tuples) | +Python Week 7 by P’ Kumamon (Dict) | +Python Week 8 by P’ Kumamon (Recursion) | +Python Extra by P’ Kumamon (Minimal Code) | +Python Extra by P’ Kumamon (PyLint) |
-
-----------
-
-**Please contribute these yourself naja. I hoped that you will find it useful one day…**
-
-| Built-in Functions                 | Math Library                 | NumPy + MathPlotLib + SciPy + JuPyter |
-| ---------------------------------- | ---------------------------- | ------------------------------------- |
-| +Python Extra (Built-In Functions) | +Python Extra (Math Library) | +Python Extra (Data Visualization)    |
-
-----------
-
-Copyright by P' Kumamon IT14. 
+Copyright by P' Kumamon IT14.
 For education purpose only
 
-Follow me on GitHub! 
+Follow me on GitHub!
 [https://github.com/sagelga](https://github.com/sagelga)
-
-----------
-
-**YouTube video playlists**
-
-| **Part 1**                   |
-| ---------------------------- |
-| https://youtu.be/8X69DpErwIs |
 
 ----------
 
@@ -90,24 +60,24 @@ The interpreter will read line 1 and line 3. Then it starts executing line 3 by 
 
     def kumamon(value):
       print("This costs", value, "baht")
-    
+
     kumamon(200)
 
 **Throw in and out of variables**
 
     def main(value, value2):
       print("The answer is", kumamon(value, value2))
-      
+
     def kumamon(num1, num2):
       return num1+num2-5
-    
+
     main(int(input()), int(input()))
 
 
 
 # Built-In Functions
 
-If you want to make a new function name, consider how you create a new name. 
+If you want to make a new function name, consider how you create a new name.
 If you choose the same name as the built-in function, Python will NOT work
 These are lists of built-in functions in Python
 
@@ -128,4 +98,3 @@ These are lists of built-in functions in Python
 | delattr()     | hash()      | memoryview() | set()      |                |
 
 Resource by Python Foundation https://docs.python.org/3/library/functions.html
-

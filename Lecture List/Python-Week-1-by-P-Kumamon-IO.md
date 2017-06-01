@@ -1,31 +1,9 @@
 # Python Week 1 by P’ Kumamon (I/O)
 
-# Table of Contents
-
-**This is all contributed by P’ Kumamon. Enjoy.**
-
-| **I/O**                            | **Functions**                            | **Strings**                            | **Condition**                            | **Loops**                            |
-| ---------------------------------- | ---------------------------------------- | -------------------------------------- | ---------------------------------------- | ------------------------------------ |
-| +Python Week 1 by P’ Kumamon (I/O) | +Python Week 2 by P’ Kumamon (Functions) | +Python Week 3 by P’ Kumamon (Strings) | +Python Week 4 by P’ Kumamon (Condition) | +Python Week 5 by P’ Kumamon (Loops) |
-
-| **Lists and Tuples**                          | **Dict**                            | **Recursion**                            | **Minimal Code**                           | **Pylint Quality**                   |
-| --------------------------------------------- | ----------------------------------- | ---------------------------------------- | ------------------------------------------ | ------------------------------------ |
-| +Python Week 6 by P’ Kumamon (Lists + Tuples) | +Python Week 7 by P’ Kumamon (Dict) | +Python Week 8 by P’ Kumamon (Recursion) | +Python Extra by P’ Kumamon (Minimal Code) | +Python Extra by P’ Kumamon (PyLint) |
-
-----------
-
-**Please contribute these yourself naja. I hoped that you will find it useful one day…**
-
-| Built-in Functions                 | Math Library                 | NumPy + MathPlotLib + SciPy + JuPyter |
-| ---------------------------------- | ---------------------------- | ------------------------------------- |
-| +Python Extra (Built-In Functions) | +Python Extra (Math Library) | +Python Extra (Data Visualization)    |
-
-----------
-
-Copyright by P' Kumamon IT14. 
+Copyright by P' Kumamon IT14.
 For education purpose only
 
-Follow me on GitHub! 
+Follow me on GitHub!
 [https://github.com/sagelga](https://github.com/sagelga)
 
 ----------
@@ -104,13 +82,13 @@ http://study.com/academy/lesson/what-is-pemdas-definition-rule-examples.html
 
     text = "Hello"
     print(text * 5) -> "HelloHelloHelloHelloHello"
-    
+
     text = "Hello"
     text2 = "World"
     print(text + text2 + 5) -> ERROR (You cannot add string with a integer type)
-    
-    
-    # so try to use this instead 
+
+
+    # so try to use this instead
     text = "Hello"
     text2 = "World"
     print(text + text2 + str(5)) -> HelloWorld5
@@ -142,11 +120,11 @@ http://study.com/academy/lesson/what-is-pemdas-definition-rule-examples.html
 
     text = "Hello"
     num = 1234
-    
+
     print(num+hello)
-    # Returns error 
+    # Returns error
     (string cannot be add with interger)
-    
+
     print(str(num)+text)
     # Returns 1234Hello
     (they can be concatinate together because they are in the same value type)
@@ -165,23 +143,23 @@ Use # to make it as single line comment
     How to use:
     min(<argument 1>,<argument 2>)
     Returns the lowest number
-    
+
     max(<argument 1>,<argument 2>)
     Returns the highest number
-    
+
     ——————————————————————————————
-    
+
     # Using 2 arguments
     var1 = 12
     var2 = 21
     return min(var1,var2)
-    
+
     # Using 3 arguments
     var1 = 12
     var2 = 21
     var3 = 120
     return min(min(var1,var2),var3)
-    
+
     # Using arguments from array
     var = [12,24]
     return min(var[0], var[1])
@@ -205,5 +183,4 @@ They are inside this link
 [https://docs.python.org/3.6/library/functions.html](https://docs.python.org/3.6/library/functions.html)
 
 **Math Modules List**
-+Python Extra (Math Library) 
-
++Python Extra (Math Library)

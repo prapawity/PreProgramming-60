@@ -1,31 +1,9 @@
 # Python Week 6 by P’ Kumamon (Lists + Tuples)
 
-# Table of Contents
-
-**This is all contributed by P’ Kumamon. Enjoy.**
-
-| **I/O**                            | **Functions**                            | **Strings**                            | **Condition**                            | **Loops**                            |
-| ---------------------------------- | ---------------------------------------- | -------------------------------------- | ---------------------------------------- | ------------------------------------ |
-| +Python Week 1 by P’ Kumamon (I/O) | +Python Week 2 by P’ Kumamon (Functions) | +Python Week 3 by P’ Kumamon (Strings) | +Python Week 4 by P’ Kumamon (Condition) | +Python Week 5 by P’ Kumamon (Loops) |
-
-| **Lists and Tuples**                          | **Dict**                            | **Recursion**                            | **Minimal Code**                           | **Pylint Quality**                   |
-| --------------------------------------------- | ----------------------------------- | ---------------------------------------- | ------------------------------------------ | ------------------------------------ |
-| +Python Week 6 by P’ Kumamon (Lists + Tuples) | +Python Week 7 by P’ Kumamon (Dict) | +Python Week 8 by P’ Kumamon (Recursion) | +Python Extra by P’ Kumamon (Minimal Code) | +Python Extra by P’ Kumamon (PyLint) |
-
-----------
-
-**Please contribute these yourself naja. I hoped that you will find it useful one day…**
-
-| Built-in Functions                 | Math Library                 | NumPy + MathPlotLib + SciPy + JuPyter |
-| ---------------------------------- | ---------------------------- | ------------------------------------- |
-| +Python Extra (Built-In Functions) | +Python Extra (Math Library) | +Python Extra (Data Visualization)    |
-
-----------
-
-Copyright by P' Kumamon IT14. 
+Copyright by P' Kumamon IT14.
 For education purpose only
 
-Follow me on GitHub! 
+Follow me on GitHub!
 [https://github.com/sagelga](https://github.com/sagelga)
 
 ----------
@@ -67,19 +45,19 @@ then looked at numbers
 
     kumamon = [1,2,3,4]
     kumamon.append(5)
-    
+
     # kumamon now equals to
     [1, 2, 3, 4, 5]
 
 **Add using .split()**
-+Python Week 3 by P’ Kumamon (Strings): Using-.split() 
++Python Week 3 by P’ Kumamon (Strings): Using-.split()
 
 **Add from other array**
 
     text1 = ["Happy"]
     text2 = ["Kumamon"]
     return text1+text2
-    
+
     # Returns
     ["Happy", "Kumamon"]
 # Modifying Elements in Array
@@ -88,7 +66,7 @@ then looked at numbers
 
     kumamon = [1, 3, 4, 2, 5]
     kumamon.sort()
-    
+
     # kumamon now equals to
     [1, 2, 3, 4, 5]
 
@@ -96,7 +74,7 @@ then looked at numbers
 
     kumamon = [1, 3, 4, 2, 5]
     kumamon.sort(reverse = True)
-    
+
     # kumamon now equals to
     [5, 4, 3, 2, 1]
 
@@ -104,19 +82,19 @@ then looked at numbers
 
     kumamon = ['9', '1', 'a', 'A']
     kumamon = kumamon.sort()
-    
+
     # kumamon now equals to
     ['1', '9', 'A', 'a']
 # Using Elements in Array
 
 **Using .pop()**
-.pop() will print then remove that item 
+.pop() will print then remove that item
 
 **Using array call**
 
     kumamon = ["Happy", "Funny", "Fat"]
     print(kumamon[1])
-    
+
     # Returns "Funny"
 # Remove Elements in Array
 
@@ -126,5 +104,4 @@ then looked at numbers
 
 # Introduction to Tuples
 
-Tuples is an array, with a catch. They **cannot be replaced, removed, modify** after being created. 
-
+Tuples is an array, with a catch. They **cannot be replaced, removed, modify** after being created.
