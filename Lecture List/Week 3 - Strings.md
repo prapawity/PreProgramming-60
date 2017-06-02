@@ -3,57 +3,69 @@
 Copyright by P' Kumamon IT14.
 For education purpose only
 
-Follow me on GitHub!
-[https://github.com/sagelga](https://github.com/sagelga)
+## Follow me on GitHub
+![https://github.com/sagelga](https://www.dropbox.com/s/x5xk4trg3u82bcn/GitHub-Profile-Mobile.PNG?raw=1)
 
 ----------
+# String คืออะไร
+String เป็นตัวแปรประเภทนึง ที่เก็บ character ไว้หลายๆตัว อาจจะเพียง 2 ตัวก็ได้ หรือจะเป็น ล้านๆตัวก็ได้
 
-# Strings index
+Python นั้น จะเก็บข้อมูล String ไว้ในแบบ Array หรือว่ากล่อง(ถ้าจะให้เข้าใจง่ายๆ) โดยกล่องๆนึง มี character อยู่หนึ่งตัว
 
-How to remember how to use
+และ โกดังคือตัวแปร String ที่มีหน้าที่เก็บกล่อง(character) โดยไม่สนใจว่าโกดังจะเล็กไปหรือใหญ่ไปหรือไม่ (Compiler จะทำหน้าที่คำนวณเอง ไม่เหมือนภาษาคอมพิวเตอร์อื่น)
+
+### วิธีให้ตัวแปรเก็บค่า String
+```python
+blank_space = "" # ถ้าเป็นภาษาคอมพิวเตอร์อื่นๆ ต้องประกาศตัวแปรก่อน Python ไม่ต้อง
+text = "Hello World"
+mood = "Not that much 555"
+number = "12" # ค่า '12' (string) จะไม่เท่ากับ 12 (integer) นะครับ ต้องระวังให้ดี
+```
+
+### ถ้าต้องการเรียกตัวอักษรบางตัวมาใช้เท่านั้น
 ```python
 How to use:
 <variable>[start:stop:step]
 
-# Start -> Start from what array number
-# Stop -> Stop at what array number
-# Step -> Skips every x array number
+# Start -> ให้เรื่มตั้งแต่ตัวอักษรไหน       (Default: 0)
+# Stop  -> ให้หยุดที่ตัวอักษรไหน         ( Required )
+# Step  -> ข้ามตัวอักษรเมื่อครบทุกๆ x ตัว  (Default: 1)
 ```
 
-### 1-character printout
+### ปรี้นท์ตัวอักษรออกมาตัวเดียว
 ```python
 var = "ABCD"
 print(var[0]) # Prints out "A" (A is in the 0th number array)
 ```
 
-as visualized
+ถ้ายังไม่เข้าใจ ดูตารางเปรียบเทียบเอาครับ
 
-| **Text**           | A | B | C | D |
+| **String (ชื่อ var)**   | A | B | C | D |
 | ------------------ | - | - | - | - |
-| **Array Number**   | 0 | 1 | 2 | 3 |
-| **Logical Number** | 1 | 2 | 3 | 4 |
+| **ตำแหน่งของ Array บน string**   | 0 | 1 | 2 | 3 |
+| **ตำแหน่งตัวอักษรจริง** | 1 | 2 | 3 | 4 |
 
-Array Number always starts at 0 not 1!
+ระวังว่าตำแหน่งของ array จะเรื่มจาก 0 เสมอ ไม่เหมือนคนนะครับ ที่เรื่มนับจาก 1 เลย
 
-### Inversed text printout
+### หาก Stop เป็นตัวเลขติดลบ
 ```python
 var = "ABCD"
 print(var[-1]) # Prints out "D" (D is the first one from the last)
 ```
 
-### Overflow array
+### Array จริงน้อยกว่าที่เราต้องการเรียก
 ```python
 var = "ABCD"
-print(var[50]) # Returns error, as the 50th array number does not exist
+print(var[50]) # เกิด error เพราะว่า array ตัวที่ 50 ไม่มีจริง
 ```
 
-### Multiple character printout
+### การ Print ตัวอักษรหลายตัว (แต่ไม่ใช่ทุกตัว)
 ```python
 var = "ABCD"
-print(var[0:2]) # Prints out "AB" (Start printing out from 0th to 1st array number
+print(var[0:2]) # Prints out "AB" (โดยเรื่มเอาจากตัวที่ 0 จนถึงตัวที่ 1 (ระวังนะครับ ข้อนี้ผิดกันเยอะมากเลย))
 ```
 
-### Starts and Continue
+### เรื่มต้นและต่อเนื่องไป
 ```python
 var = "My name is Kumamon, and I love eating"
 print(var[4:]) # Prints out "name is Kumamon, and I love eating" (Starting from 4th array number)
@@ -181,22 +193,31 @@ print("%-10.3f" %number)
 # Strings to ASCII
 ![https://i.stack.imgur.com/X4yts.png](https://i.stack.imgur.com/X4yts.png)
 
-```python
+
 # String to ASCII (Decimal)
+```python
 print(ord('A')) # Print out 65
+```
 
 # ASCII (Decimal) to String
+```python
 print(chr(65)) # Print out 'A'
+```
 
 # Alters String ASCII
+```python
 print(chr(65+1)) # Print out 'B'
+```
 
 # Referencing number from variable
+```python
 var = 75
 print(chr(var)) # Print out 'K'
+```
 
 # Alters String ASCII from character
-print(chr(ord('A')+1) # Print out 'B'
+```python
+print(chr(ord('A')+1)) # Print out 'B'
 ```
 
 # String to change case

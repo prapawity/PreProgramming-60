@@ -1,7 +1,17 @@
+# Python Extra by P’ Kumamon (Pylint + PEP8)
+
+Copyright by P' Kumamon IT14.
+For education purpose only
+
+## Follow me on GitHub
+![https://github.com/sagelga](https://www.dropbox.com/s/x5xk4trg3u82bcn/GitHub-Profile-Mobile.PNG?raw=1)
+
+----------
+
 # ทำยังไงไม่ให้ PyLint ด่า
 ใครเคยโดน PyLint ด่าบ้าง ทุกคนก็ต้องเคยอ่ะเนอะ วันนี้พี่คุมะมงจะมาอธิบาย ว่าทำไมมันจึงด่านะครับ
 
-ถ้าอันไหน ยังไม่เคยเจอ คอมเม้นท์ไว้ใต้ Gist นี้ได้นะครับ :)
+ถ้าอันไหน ยังไม่เคยเจอ คอมเม้นท์ไว้ใด้นะครับ :)
 
 ## 1. Missing DocString
 Docstring คือ comment เพื่อบอกว่าฟังชั่น หรือ โปรแกรมนั้นๆ ทำงานเพื่ออะไร โดยทุก function ละหัวไฟล์ (บรรทัดที่ 1) จะต้องมี docstring กำกับ

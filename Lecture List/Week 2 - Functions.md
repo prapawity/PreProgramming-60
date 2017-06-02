@@ -1,60 +1,49 @@
-# Python Week 2 by P’ Kumamon (Functions)
+# Python Week 2 by P’ Kumamon (ฟังก์ชั่น)
 
 Copyright by P' Kumamon IT14.
 For education purpose only
 
-Follow me on GitHub!
-[https://github.com/sagelga](https://github.com/sagelga)
+## Follow me on GitHub
+![https://github.com/sagelga](https://www.dropbox.com/s/x5xk4trg3u82bcn/GitHub-Profile-Mobile.PNG?raw=1)
 
 ----------
 
-# What is function?
+# ฟังก์ชั่นคืออะไร
 
-Functions are **"self contained" modules of code that accomplish a specific task.** Functions usually "take in" data, process it, and "return" a result. Once a function is written, it can be used over and over and over again. Functions can be "called" from the inside of other functions.
+ฟังก์ชั่น **เป็นกลุ่มของโค้ด** ฟังก์ชั่น โดยส่วนใหญ่แล้ว จะรับค่ามาเพื่อคำนวณ และส่งค่าที่คำนวณได้กลับไป โดยฟังก์ชั่นสามารถถูกใช้ได้หลายครั้ง ไม่จำกัดจำนวน และสามารถเรียกจากจุดไหนของโปรแกรมก็ได้
 
-Functions **"Encapsulate" a task** (they combine many instructions into a single line of code). Most programming languages provide many built in functions that would otherwise require many steps to accomplish, for example computing the square root of a number. In general, we don't care **how** a function does what it does, only that it "does it"!
+ฟังก์ชั่น **เป็นการย่อโค้ดให้สั้นลง** เนื่องจากว่ามันสามารถคำนวณได้ และสามารถถูกเรียกได้จากจุดไหนก็ได้ โดยภาษา Python ก็มีฟังก์ชั่นที่ให้มาอยู่แล้ว (Built In Function)
 
-When a function is "called" the program "leaves" the current section of code and begins to execute the first line inside the function. Thus the function "flow of control" is:
+ฟังก์ชั่น **เป็นการช่วย Debug โปรแกรม** เนื่องจากว่า เราสามารถรู้ได้ว่า ปัญหาโค้ดนั้น อยู่ที่บรรทัดใดของโปรแกรม นั่นหมายความว่า ถ้าเรารู้ว่าปัญหาอยู่ที่ฟังก์ชั่นนี้ เราก็สามารถเข้าไปแก้เพียงฟังก์ชั่นนั้นๆ ได้ในทันที ไม่ต้องมานั่งหาทั้งโปรแกรม
 
-
-1. The program comes to a line of code containing a "function call".
-2. The program enters the function (starts at the first line in the function code).
-3. **All instructions** inside of the function are executed from top to bottom.
-4. The program leaves the function **and goes back to where it started from.**
-5. Any data computed and **RETURNED** by the function is used in place of the function in the original line of code.
-----------
-## Why do we Write Functions?
-1. They allow us to conceive of our program as a bunch of sub-steps. (Each sub-step can be its own function. When any program seems too hard, just break the overall program into sub-steps!)
-2. They allow us to **reuse code instead of rewriting it.**
-3. Functions allow us to **keep our variable namespace clean** (local variables only "live" as long as the function does). In other words, function_1 can use a variable called i, and function_2 can also use a variable called i and there is no confusion. Each variable i only exists when the computer is executing the given function.
-4. Functions **allow us to test small parts of our program in isolation from the rest.** This is especially true in interpreted langaues, such as Matlab, but can be useful in C, Java, ActionScript, etc.
-
-Definitions by Utah University http://www.cs.utah.edu/~germain/PPS/Topics/functions.html
+Definitions by Utah University http://www.cs.utah.edu/~germain/PPS/Topics/function.html
 
 
-# Getting start with functions
+# เรื่มต้นกับฟังก์ชั่น
 
-### Declaring new function
+### สร้างฟังก์ชั่นใหม่
 ```python
 def kumamon():
     print("Hello. My name is Kumamon")
 ```
-This is a function called kumamon()
+ฟังก์ชั่นนี้ชื่อ kumamon()
 
-How to use a function declared
+การประกาศฟังก์ชั่น จะใช้ def (ย่อจากคำว่า define function) และตามด้วยชื่อฟังก์ชั่น
+
+สำหรับ () หลังชื่อ จะมีหน้าที่รับค่ามาจากฟังก์ชั่นอื่นๆ และ : เพื่อบอกว่าหลังบรรทัดนี้(มี Indent 1 ครั้งด้วยนะครับ) มีโค้ดที่เมื่อเราเรียกฟังก์ชั่นแล้ว ต้องทำตาม
+
+### วิธีเรียกฟังก์ชั่น
 ```python
 kumamon()
 ```
+ง่ายๆเลย โดยการเขียนชื่อฟังก์ชั่น และตามด้วย () โดยใน () จะเป็นข้อมูลที่เราจะเอาให้กับฟังก์ชั่นอื่น
 
-It’s just that! No need to use anything else!
-
-### Wrapping up the declaration and definition
+### โปรแกรมเพื่อเรียกฟังก์ชั่นและใช้งานฟังก์ชั่น
 ```python
 def kumamon():
   print("Hello. My name is Kumamon")
 kumamon()
 ```
-The interpreter will read line 1 and line 3. Then it starts executing line 3 by doing thing inside line 1
 
 ### Throw in variables
 ```python
@@ -62,7 +51,11 @@ def kumamon(value):
   print("This costs", value, "baht")
 
 kumamon(200)
+# Returns "This costs 200 baht"
 ```
+บรรทัดที่ 4 มีการเรียกฟังก์ชั่น kumamon โดยที่ให้ค่า integer ที่เท่ากับ 200
+
+โดยเมื่ออ่านบรรทัดที่ 1 แล้ว จะหมายความว่า ค่า integer จะถูกเก็บไว้ในตัวแปร value และถูกใช้ในฟังก์ชั่น print()
 
 ### Throw in and out of variables
 ```python
@@ -74,12 +67,15 @@ def kumamon(num1, num2):
 
 main(int(input()), int(input()))
 ```
+ตอนนี้ main() ถูกเรียก และได้รับค่า input() ทั้งหมด 2 ตัว โดยจะถูกเรียกว่าตัวแปร value และ value2 ตามลำดับ โดยฟังก์ชั่น main() มีการเรียกฟังก์ชั่น kumamon() ด้วย ดังนั้น โปรแกรมจึงรันฟังก์ชั่น kumamon()
 
-# Built-In Functions
+return คือการคืนค่าให้กับฟังก์ชั่นที่เรียกตัวมันเอง โดยโปรแกรมได้อ่านแล้วว่าให้คืนค่าผลลัพท์ของ num1+num2-5 กลับไปหาฟังก์ชั่นที่เรียกตัวมัน (ฟังก์ชั่น main) แล้วจึงทำการ print() บรรทัดของฟังก์ชั่น main()
 
-If you want to make a new function name, consider how you create a new name.
-If you choose the same name as the built-in function, Python will NOT work
-These are lists of built-in functions in Python
+# ฟังก์ชั่นบน Python แล้ว
+
+การที่จะตั้งชื่อฟังก์ชั่นนั้นไม่ได้ตั้งชื่ออะไรก็ได้นะครับ โดยชื่อฟังก์ชั่นที่ Python จองไว้ไม่ให้ตั้งชื่อเหมือน จะมีดังนี้ครับ
+
+และเช่นเดียวกัน เราก็สามารถใช้ฟังก์ชั่นที่ Python ทำไว้แล้วได้เช่นเดียวกัน โดยการเรียกเหมือนกับฟังก์ชั่นธรรมดาเลย
 
 | abs()         | dict()      | help()       | min()      | setattr()      |
 | ------------- | ----------- | ------------ | ---------- | -------------- |
@@ -97,4 +93,4 @@ These are lists of built-in functions in Python
 | complex()     | hasattr()   | max()        | round()    |                |
 | delattr()     | hash()      | memoryview() | set()      |                |
 
-Resource by Python Foundation https://docs.python.org/3/library/functions.html
+Resource by Python Foundation https://docs.python.org/3/library/ฟังก์ชั่น.html

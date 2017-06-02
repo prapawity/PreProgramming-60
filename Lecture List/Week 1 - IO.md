@@ -3,8 +3,8 @@
 Copyright by P' Kumamon IT14.
 For education purpose only
 
-Follow me on GitHub!
-[https://github.com/sagelga](https://github.com/sagelga)
+## Follow me on GitHub
+![https://github.com/sagelga](https://www.dropbox.com/s/x5xk4trg3u82bcn/GitHub-Profile-Mobile.PNG?raw=1)
 
 ----------
 # Types of Values
@@ -59,6 +59,27 @@ type(var) # Returns <class 'bool'>
 | --------- | ------------ | --------- | --------------------- | --------- | --------------------- |
 | Equals to | Not equal to | Less than | Less than or equal to | More than | More than or equal to |
 
+| **Symbol**  | += | -=    | *=    | /=   | //=         | %= | **=   |
+| ----------- | ----- | -------- | -------- | ------- | -------------- | ----- | -------- |
+| **Name**    | Add (Increment)   | Subtract | Multiply | Divide  | Floor Division | Mod   | Exponent |
+| **Example** | 2+3   | 2-3      | 2*3      | 2/3     | 2//3           | 2&3   | 2**3     |
+| **Results** | 5     | -1       | 6        | 0.66666 | 0              | 2     | 8        |
+
+In Python, there are no increment like ++ or -- like
+```C
+int num = 12;
+num++
+
+// num is equal to 13
+```
+
+so we use instead
+```python
+num = 12
+num += 1
+
+# num is equal to 13
+```
 ## Order of Operations
 
 Python is using PEMDAS rule. Do not use other mathematical rule to let Python compute
