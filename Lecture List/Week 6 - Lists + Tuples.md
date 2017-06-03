@@ -1,6 +1,6 @@
 # Python Week 6 by P’ Kumamon (Lists + Tuples)
 
-Copyright by P' Kumamon IT14.
+Copyright by P' Kumamon IT14 & Wiput IT15.
 For education purpose only
 
 ## Follow me on GitHub
