@@ -1,6 +1,6 @@
 ﻿# กำหนดการ Pre-Programming by P’ Kumamon
 
-้|ต้นเดือน 4|เดือน 7|ก่อนเป็นปี 1|เป็นปี 1 แล้ว|
+|ต้นเดือน 4|เดือน 7|ก่อนเป็นปี 1|เป็นปี 1 แล้ว|
 |---------|------|---------|---------|
 |Pre Programming รอบ Online|Pre Programming รอบ On-Site|First Day + Registration|กิจกรรมของคณะ|
 
