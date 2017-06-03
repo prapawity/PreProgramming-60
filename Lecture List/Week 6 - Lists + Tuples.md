@@ -160,6 +160,84 @@ print(" ".join(text)) # Prints out "I am a happy Kumamon"
 # Introduction to Tuples
 Tuples is an array, with a catch. They **cannot be replaced, removed, modify** after being created.
 
+Syntactically, a tuple is a comma-separated list of values:
+```Python
+text = 'k', 'u', 'm', 'a', 'm', 'o', 'n'
+```
+Although it is not necessary, it is common to enclose tuples in parentheses:
+```Python
+text = ('k', 'u', 'm', 'a', 'm', 'o', 'n')
+```
+To create a tuple with a single element, you have to include a final comma:
+```Python
+t1 = 'a',
+type(t1)
+# Return <class 'tuple'>
+```
+A value in parentheses is not a tuple:
+```Python
+t2 = ('a')
+type(t2)
+# Return <class 'string'>
+```
+Another way to create a tuple is the build-in function tuple. With no argument, it creates an empty tuple:
+```Python
+t = tuple()
+t
+# Return ()
+```
+
+# Tuple assignment
+It is often useful to swap the values of two variables. With conventional assignments, you have to use a temporary variable. For example, to swap a and b:
+```Python
+temp = a
+a = b
+b = temp
+```
+This solution is cumbersome; tuple assignment is more elegant:
+```Python
+a, b = b, a
+```
+The left side is a tuple of variables; the right side is a tuple of expressions. Each value is assigned to its respective variable. All the expressions on the right side are evaluated before any of the assignments.
+
+The number of variables on the left and the number of values on the right have to be the same:
+```Python
+a, b = 1, 2, 3
+# Return ValueError: too many values to unpack
+```
+More generally, the right side can be any kind of sequence (string, list or tuple). For example, to split an email address into a user name and a domain, you could write:
+```Python
+address = 'kumamon@kumamoto.me'
+username, domain = address.split('@')
+```
+When you print out username and domain you will get:
+```Python
+print("Username :", username)
+print("Domain :", domain)
+# Returns
+# Username : kumamon
+# Domain : kumamoto.me
+```
+# Tuples as return values
+Strictly speaking, a function can only return one value, but if the value is a tuple, the effect is the same as returning multiple values. For example, if you want to divide two integers and compute the quotient and remainder, it is inefficient to compute x/y and then x%y. It is better to compute them both at the same time.
+
+The built-in function divmod takes two arguments and returns a tuple of two values, the quotient and remainder. You can store the result as a tuple:
+```Python
+result = divmod(7, 3)
+print(result)
+# Return (2, 1)
+```
+Or use tuple assignment to store the elements separately:
+```Python
+quotient, remainder = divmod(7, 3)
+print("Quotient :", quotient)
+print("Remainder :", remainder)
+# Returns
+# Quotient : 2
+# Remainder : 1
+```
+
+
 # String to character stripping
 ```plain
 Converge text (merge) -> .join()
