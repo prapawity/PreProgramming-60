@@ -1,8 +1,9 @@
-﻿# กำหนดการ Pre-Programming by P’ Kumamon
+# กำหนดการ Pre-Programming by P’ Kumamon
 
 |ต้นเดือน 4|เดือน 7|ก่อนเป็นปี 1|เป็นปี 1 แล้ว|
 |---------|------|---------|---------|
 |Pre Programming รอบ Online|Pre Programming รอบ On-Site|First Day + Registration|กิจกรรมของคณะ|
+|[[1]](https://github.com/sagelga/PreProgramming-60/edit/master/Activity%20Schedule%20IT15.md)|[[2]](https://github.com/sagelga/PreProgramming-60/blob/master/Activity%20Schedule%20IT15.md#เดือน-7-8)|[[3]](https://github.com/sagelga/PreProgramming-60/blob/master/Activity%20Schedule%20IT15.md#เดือน-8-น้องเกือบเป็นนักศึกษาแล้ว)|[[4]](https://github.com/sagelga/PreProgramming-60/blob/master/Activity%20Schedule%20IT15.md#เดือน-8-12-น้องเป็นนักศึกษาปี-1-เต็มตัว)|
 
 # What is EJudge?
 
@@ -11,10 +12,13 @@
 ระบบ Ejudge เป็นระบบ Grader ชนิดหนึ่ง ที่จะรับโปรแกรมของน้องๆมา แล้วรัน โดยการใส่ค่า Input ที่พวกพี่ๆที่ออกโจทย์เขียนเอาไว้ + รับค่า Output ที่ผ่านโปรแกรมนั้นๆออกมา
 โดยระบบจะเช็คได้ถึง
 
-1. ความมีระเบียบในการเขียนโปรแกรม (คุณภาพ)
-2. ความคล้ายคลึงใน Algorithm ในโปรแกรมน้องๆ กับเพี่อนของน้องๆ
-3. ความถูกต้องในผลลัพท์ที่ออกมาจากโปรแกรมที่น้องๆเขียนมา
-4. เก็บคะแนน และเก็บไฟล์ที่น้องเคยส่งมาทั้งหมด
+1. **ความมีระเบียบ** ในการเขียนโปรแกรม (คุณภาพ)
+
+2. **ความคล้ายคลึงใน Algorithm** ในโปรแกรมน้องๆ กับเพี่อนของน้องๆ
+
+3. **ความถูกต้องในผลลัพท์** ที่ออกมาจากโปรแกรมที่น้องๆเขียนมา
+
+4. **เก็บคะแนน** และเก็บไฟล์ที่น้องเคยส่งมาทั้งหมด
 
 
 โดยน้องๆก็จะเจอกับระบบนี้ไปอีกนาน เพราะน้องต้องเรียนกับมัน สอบกับมัน ทำ Quiz กับมัน ดังนั้น ก็ให้เข้าใจและชินไปกับระบบครับ
@@ -23,9 +27,10 @@
 วิธีระบบ Ejudge คำนวณคะแนน
 หากน้องทำได้เพียง 9 ใน 10 testcase ได้ถูกต้อง และคะแนนต่อข้อ = 100 คะแนน และระดับความยาก = 5 และ ทำคุณภาพ code ระดับไม่มีที่ติ
 
+
 |Testcase Score|Difficulty|Perfect bonus score|Quality|Total|
-|----------|-------------------|-------|------|
-|(9/10) x 100|x5|100 x 5 x 0|100%|90 x 5 x 1 + 0 = 450|
+|--------------|----------|-------------------|-------|-----|
+|(9/10) x 100  |x5        |100 x 5 x 0        |100%   |90 x 5 x 1 + 0 = 450|
 
 
 หากน้องทำได้ 10 ใน 10 testcase ได้ถูกต้อง และคะแนนต่อข้อ = 100 คะแนน
@@ -33,38 +38,56 @@
 
 |Testcase Score|Difficulty|Perfect bonus score|Quality|Total|
 |--------------|----------|-------------------|-------|-----|
-|(10/10) x 100|	x5|100 x 5 x 2|100%|100 x 5 x 1 + 500 = 1000|
+|(10/10) x 100 |	      x5|100 x 5 x 2        |100%   |100 x 5 x 1 + 500 = 1000|
 
 
-เห็นความแตกต่างนั่นมั้ยเอ่ย? 450 กับ 1000 คะแนน Welcome to the PSIT.
+เห็นความแตกต่างนั่นมั้ยเอ่ย? 450 กับ 1000 คะแนน? Welcome to the PSIT.
 ________________
 
 # เนื้อหาการเรียนรอบ Online อย่างคร่าวๆ
-### 0	Creation of Website + Website Hosting on AWS by P’ Dobakung + P’ Kumamon
+### 0	Creation of Website + Website Hosting on AWS
+by P’ Dobakung + P’ Kumamon
+
 Syntax for HTML + CSS / Hosting Website on AWS services
 
-### 1 Introduction to Python by P’ Dem
+### 1 Introduction to Python
+by P’ Dem
+
 What is Python? / Why Python? / Python Coding Modes and Compatibility
 
-### 2	Variable expressions, statements and elementally Input / Output by P’ Bank
+### 2 Variable expressions, statements and elementally Input / Output
+by P’ Bank
+
 One of the most powerful features of a programming language is the ability to manipulate variables. A variable is a name that refers to a value.
 
-### 3	Function by P’ Foo
+### 3 Function
+by P’ Foo
+
 A function is a group of statements that together perform a task.
 
-### 4	Strings by P’ Boon
+### 4 Strings
+by P’ Boon
+
 A string is a sequence, which means it is an ordered collection of other values. In this chapter you’ll see how to access the characters that make up a string, and you’ll learn about some of the methods strings provide.
 
-### 5	Condition Flow by P’ Koung
+### 5 Decision Flow
+by P’ Koung
+
 The main topic of this chapter is the if statement, which executes different code depending on the state of the program
 
-### 6	Iteration For / While by P’ Start
+### 6 Iteration For / While
+by P’ Start
+
 This chapter is about iteration, which is the ability to run a block of statements repeatedly.
 
-### 7	List, Tuple by P’ Sky & P’ Top
+### 7 List, Tuple
+by P’ Sky & P’ Top
+
 This chapter presents one of Python’s most useful built-in types, lists. You will also learn more about objects and what can happen when you have more than one name for the same object.
 
-### 8	Dict, Set by P’ Tom
+### 8 Dict, Set
+by P’ Tom
+
 Dictionaries are one of Python’s best features; they are the building blocks of many efficient and elegant algorithms.
 
 Set is one of Python’s data structure. It’s the same as Set that we learned in Grade 10.
@@ -75,13 +98,17 @@ ________________
 น้องอาจจะไม่เข้าใจ ว่าทำไม เราต้องมาเรียน Python ด้วย ทำไมไม่เรียน C/Java ก่อน หรือ ไม่เรียน Ruby หรือ Swift ก่อน เพื่อเป็นการเรียนวิธีคิด พี่อยากจะบอกข้อดีของ Python ให้น้องฟังครับ
 
 - **Speed** น้องเขียนภาษานี้ ได้เร็ว (เพราะเป็นภาษา High Level)
+
 - **Integrations** ระบบต่างๆ นั้นรองรับภาษา Python ทั้งหมด หากไม่รองรับ ก็สามารถใช้ Library เพื่อให้มันรองรับได้
+
 - **Compatibility** ใช้ได้กับทุก platform หลักๆ เช่น Windows (.NET) และ UNIX (MacOS & Linux Distribution & Android)
 ________________
-# Pre-Exquisite
+# Before Coding
 ก่อนน้องจะเข้ามาเรียน Online พี่แนะนำให้น้องทำพวกนี้ก่อนครับ
 ใช้ + เลือก IDE และ Text Editor ที่เหมาะกับตัวน้องเองมากที่สุด
-(เพราะมันจะอยู่กับตัวน้องตลอดไป) โดยที่น้องๆจะได้เรียนการใช้งาน Sublime Text 3 ในเซสชันที่เรียนทำเว็บกันนะครับ
+(เพราะมันจะอยู่กับตัวน้องตลอดไป
+
+โดยโปรแกรมที่มีติดไว้กับเครื่องคอมพิวเตอร์ห้องสอบนั้มีเพียง Sublime Text, Atom, Visual Studio, NotePad และ Python IDE (IDLE) ครับ หากสะดวกใช้อันไหนก็ใช้ไปครับ
 
 ________________
 # เดือน 7-8
@@ -90,41 +117,48 @@ ________________
 # เดือน 8 (น้องเกือบเป็นนักศึกษาแล้ว)
 สำหรับกิจกรรมที่พี่เขียนข้างต้น พี่ๆปี 2 จะเป็นคนช่วยเหลือน้องๆ ตลอดครับ ดังนั้น ก็ลองฟังก่อน ว่าก่อนที่น้องจะได้มาเป็น ปี 1 อย่างสมใจอยาก นั้นต้องทำอะไรก่อนบ้าง
 
-1. กิจกรรม First Day (เค้าจะเรียกว่า รับน้องรถไฟครับ) อันนี้ รอฟังว่าจะต้องยังไงต่อไป - กิจกรรมตามความสนใจครับ สถาบันไม่บังคับ
-2. ยื่นข้อมูลเอกสารน้องๆให้สถาบัน เพื่อเข้าสู่รั้วมหาลัยอย่างแท้จริง
-3. กิจกรรมปฐมนิเทศ (ต้องมา เพี่อมาเอารหัสเข้าระบบ Ejudge ของจริง + เข้าระบบในคณะ เช่น Wifi IT-Forge เป็นต้น)
+1. กิจกรรม First Day (เค้าจะเรียกว่า รับน้องรถไฟครับ) อันนี้ รอฟังว่าจะต้องยังไงต่อไป - กิจกรรมตามความสนใจครับ สถาบันไม่บังคับให้ไม่เข้าร่วมกิจกรรมใดๆทั้งสี้นอยู่แล้วนะครับ ตามความสมัครใจของน้องๆเพียงผู้เดียว
+
+2. ยื่นข้อมูลเอกสารน้องๆให้สถาบัน เพื่อเข้าสู่รั้วมหาลัยอย่างแท้จริง โดยสำหรับข้อมูล และ ต้องเอาอะไรไปบ้าง ดูในตารางการรายงานตัวนะครับ
+
+3. กิจกรรมปฐมนิเทศ (ต้องมาทุกคน เพี่อมาเอารหัสเข้าระบบ Ejudge ของจริง + รู้จักระบบและกฎของมหาลัยเบื้องต้น)
 ---
 # เดือน 8-12 (น้องเป็นนักศึกษาปี 1 เต็มตัว)
 กิจกรรมพวกนี้ น้องๆจะเป็นคนดูแล 90% ส่วนอีกเล็กน้อย คือพี่ๆมาช่วยน้องๆครับ โดยเดี๋ยวใกล้ๆแล้ว พวกพี่ะจะมาเตือนน้องๆอีกรอบนะครับ
 
-1. กิจกรรมติดไทต์ (สำหรับ ผช) + เข็ม (สำหรับ ผญ) เป็นการรับน้องเข้าสู่ชาวลาดกระบังอย่างเต็มภาคภูมิ
-2. Open House หรืออะไรประมาณนี้ มีอีกซัก 3-4 งานนะครับ ที่รุ่นน้องๆต้องรับผิดชอบเอง แต่จะมีรุ่นพี่ มาสอน ว่าทำยังไง หรือปรับแก้จากปีที่แล้ว
+1. กิจกรรมติดไทต์ (สำหรับ ผช) + เข็ม (สำหรับ ผญ) เป็นการรับน้องเข้าสู่ชาวลาดกระบังอย่างเต็มภาคภูมิ (หากน้องไม่มา ต้องไปหาซื้อเอาเองนะครับ สำหรับน้องที่เข้างานจะได้รับแจกฟรี)
+
+2. Open House และงานในระดับคณะ (ประมาณ 3-4 งานนะครับ) ที่รุ่นน้องๆต้องรับผิดชอบเอง แต่จะมีรุ่นพี่ มาแนะนำ ว่าทำยังไง หรือมาช่วยงานน้องๆได้บ้่าง
+
 3. หา หัวหน้ารุ่น รองหัวหน้ารุ่น หัวหน้าการเก็บเงินรุ่นเอง กิจกรรมต้องใช้เงินรุ่นซะส่วนใหญ่ครับ
+
 4. พี่น้องสายรหัส (ดูได้จากข้างล่างครับ ว่ารหัสน้องคืออะไร)
+
 5. กิจกรรมกีฬา และ Cheerleader ระดับในคณะ เป็นตัวแทนกลุ่มของเพื่อนๆ / ระดับมหาลัย เป็นตัวแทนคณะ IT / ระดับ IT เจ้าคุณทหาร (KMITL + KMUTT + KMUTNB) เป็นตัวแทนคณะ IT ต่อมหาลัยในเครือเจ้าคุณทหาร
 ________________
 # ของฟรีที่น้องจะได้จากการเป็นนักศึกษา ITKMITL
 ผู้ใหญ่ใจดีแจก
-1. Microsoft Office 365 5 ปีเต็ม รวมทั้ง Microsoft Word, Excel, PowerPoint, Outlook และอื่นๆ
-2. Microsoft Windows 10 Education ใช้งานได้เหมือนกับ Windows 10 ปกติเลย แค่ฟรีเท่านั้นเอง
 
-3. Azure $100 Free Credit
+1. **Microsoft Office 365 5 ปีเต็ม** รวมทั้ง Microsoft Word, Excel, PowerPoint, Outlook และอื่นๆ เช่นเดียวกันกับ OneDrive ที่มีให้ถึง 1TB
 
-4. Unlimited Private Repository ใช้ฟรีตลอดไปครับ (แต่ต้องไปต่ออายุทุกปีเท่านั้นเอง)
-5. GitHub Student Pack เข้าไปอ่านครับ ว่าได้อะไรจาก Student Pack นะ
+2. **Microsoft Windows 10 Education** ใช้งานได้เหมือนกับ Windows 10 ปกติเลย แค่ฟรีเท่านั้นเอง
 
-6. Google Education Accounts เป็นอีเมล์ @it.kmitl.ac.th และ @kmitl.ac.th ให้น้องๆเก็บไว้ดูเล่นตลอดชีวิต รวมทั้งการเก็บไฟล์ Google Drive อย่างไม่จำกัด (อีเมล์จะไม่ปิด น้องก็ใช้ไปยาวๆ)
+3. **Azure $100 Free Credit**
 
-7. JetBrains Product
+4. **Unlimited Private Repository** ใช้ฟรีตลอดไปครับ (แต่ต้องไปต่ออายุทุกปีเท่านั้นเอง)
 
-8. AWS $150 Free Credit + Free Tier มันแจกฟรีครับ เปิด Server ได้ยาวๆ 1 ปีเต็ม ไม่ต้องปิดเลย
+5. **GitHub Student Pack** เข้าไปอ่านครับ ว่าได้อะไรจาก Student Pack นะ
+
+6. **Google Education Accounts** เป็นอีเมล์ @it.kmitl.ac.th และ @kmitl.ac.th ให้น้องๆเก็บไว้ดูเล่นตลอดชีวิต รวมทั้งการเก็บไฟล์ Google Drive อย่างไม่จำกัด (อีเมล์จะไม่ถูกปิดหลังน้องจบไปแล้ว น้องก็สามารถใช้ไปยาวๆเลย)
+
+7. **JetBrains Product**
+
+8. **AWS $150 Free Credit** + Free Tier มันแจกฟรีครับ เปิด Server ได้ยาวๆ 1 ปีเต็ม ไม่ต้องปิดเลย
 ---
-# การเรียน และ การสอบ PSIT
+# การเรียน และ การสอบวิชา PSIT
 สำหรับการเรียน วิชาเขียนโปรแกรม ไม่ว่าจะเป็น ภาษา Python, C, Java จะมีความความคล้ายคลึงกันอยู่บ้าง แต่ตอนนี้ พี่คุมะมงจะเล่าก่อน ว่าจะเกิดอะไรขื้นในวิชา Python
 
-
 อาจารย์โชติพัฒน์นั้นเป็นคนใจดีครับ และก็จะมีการเรียนคาบ Lecture (ทฤษฎี) และ คาบ Lab (ปฏิบัติ) ซื่งเนื่อหาคาบ Lab จะมาจาก Lecture ซะส่วนใหญ่
-
 
 ตอนนี้น้องๆรู้แค่สี่งที่ทำได้ กับไม่ได้ก่อนครับ
 
@@ -132,13 +166,15 @@ ________________
 ในห้องสอบ PSIT นั้่น น้องก็จะได้ใช้คอมพิวเตอร์ PC (ซึ่งทำใมตอนเรียน แล้วใช้ macOS หล่ะนั่น) โดยที่เครื่องคอมพิวเตอร์จะปิดเน็ด ปิดการเชื่อมต่อกับอินเตอร์เน็ด เหลือเพียงเว็บ Ejudge ที่ยังสามารถเข้าไปส่งคำตอบของน้องได้
 
 น้องสามารถเตรียมของพวกนี้เข้าไปได้ด้วย
-- **ดินสอ ปากกา** (ปากกาต้องเอามา) เพื่อจะทด(หากต้องทด) และเซ็นต์ชื่อมาสอบ
-- **บัตรประจำตัวนักศึกษา** ต้องมี ถ้าไม้มี ไม่สามารถสอบได้ (หากจำเป็นจริงๆ สามารถติดต่อสำนักทะเบียนได้)
-- **ขนม** (ปีของพี่เอาเข้าได้) โดยจะต้องเป็นขนมที่ไม่ทำให้คนสอบรอบข้างไม่หิวไปด้วย และไม่รบกวนคนอื่น
+-**ดินสอ ปากกา** (ปากกาต้องเอามา) เพื่อจะทด(หากต้องทด) และเซ็นต์ชื่อมาสอบ
+-**บัตรประจำตัวนักศึกษา** ต้องมี ถ้าไม่มีจะไม่สามารถเข้าห้องสอบได้ (หากลืมหรือหายจริงๆ สามารถติดต่อสำนักทะเบียนเพื่อออกใบเข้าสอบได้ครับ)
+-**ขนม** (ปีของพี่เอาเข้าได้) โดยจะต้องเป็นขนมที่ไม่ทำให้คนสอบรอบข้างไม่หิวไปด้วย และไม่รบกวนคนอื่น
 
 # ฟังก์ชั่นบน Ejudge ที่จะถูกปิดไป
 1. คะแนนของเพื่อนๆ และของตัวเอง แต่ยังสามารถดูได้ว่าข้อนี้มีคนส่งไปแล้วกี่คน
-2. เกจ Quality โดยที่จะบอกเพียงว่า อยู่ประมาณไหน จะไม่รู้เลยว่าโดนหักคะแนนไปมากขนาดไหน
+
+2. เกจ Quality โดยที่จะบอกเพียงว่า อยู่ประมาณไหน จะไม่รู้เลยว่าโดนหักคะแนนไปมากขนาดไหน แต่จะยังบอกเป็นเพียงลางๆเท่านั้น เช่น 75% - 100% หรีือ 50% - 75%
+
 3. ระบบ Code Simulator เนื่องจากอินเตอร์เน็ดจากภายนอกจะถูกปิดทั้งหมด
 ---
 # FAQ
@@ -169,11 +205,14 @@ A : เค้ามีเหตุผลของเค้าครับ อา
 ________________
 # Reference
 ### Think Python v.2 :
+![](http://greenteapress.com/thinkpython/think_python_comp2.medium.png)
+
 http://greenteapress.com/thinkpython2/thinkpython2.pdf
 
 เป็นหนังสือที่อาจารย์โชบอกว่ามันดีครับ (มัน Creative Commons อ่ะครับ เออ มันดี)
 ________________
 ### This is อาจารย์โช :
+![](https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.0-9/14721679_10209523434456073_173788236229106936_n.jpg?oh=335813e3fc0942e42a3f3cab638950ba&oe=59E5EA0E)
 https://www.facebook.com/chotipat
 
 ขอเตือนนะครับ อาจารย์เค้าความจำดีครับ น้องเล่นอะไรแผลงๆ เค้าจำได้นะครับ พี่ต้องขอเตือนไว้ก่อน อิอิ
